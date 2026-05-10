@@ -683,7 +683,7 @@ elif "Statistical" in page:
         fig3.update_traces(textposition="outside")
         st.plotly_chart(fig3, use_container_width=True)
 
-
+"steps
 # ══════════════════════════════════════════════════════════════════════════════
 # PAGE 7 — AI RISK PREDICTOR
 # ══════════════════════════════════════════════════════════════════════════════
@@ -749,8 +749,7 @@ elif "Predictor" in page:
                 title={"text":"Automation Risk %","font":{"color":"#cbd5e1"}},
                 gauge={"axis":{"range":[0,100],"tickcolor":"#cbd5e1"},"bar":{"color":col},
                        "bgcolor":"#1e2535",
-                       "steps":[{"range":[0,35],"color":"#00c85322"},{"range":[35,65],"color":"#ffa50022"},
-                                 {"range":[65,100],"color":"#ff4b4b22"}],
+                       "steps":[{"range":[0,35],"color":"rgba(0,200,83,0.13)"},{"range":[35,65],"color":"rgba(255,165,0,0.13)"}, {"range":[65,100],"color":"rgba(255,75,75,0.13)"}],
                        "threshold":{"line":{"color":"white","width":3},"thickness":0.75,"value":risk}}))
             fig.update_layout(paper_bgcolor="rgba(0,0,0,0)",font_color="#cbd5e1",
                               height=250,margin=dict(l=20,r=20,t=40,b=10))
