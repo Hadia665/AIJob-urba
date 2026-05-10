@@ -682,8 +682,6 @@ elif "Statistical" in page:
                            xaxis=dict(showgrid=True,gridcolor="#2d3748"),yaxis=dict(showgrid=False))
         fig3.update_traces(textposition="outside")
         st.plotly_chart(fig3, use_container_width=True)
-
-"steps
 # ══════════════════════════════════════════════════════════════════════════════
 # PAGE 7 — AI RISK PREDICTOR
 # ══════════════════════════════════════════════════════════════════════════════
